@@ -1,0 +1,15 @@
+Input:
+- size: min 8 x 8
+    + row
+    + column
+- number of obstable (%): from 10 to 20 (int)
+    => Output: random list of pairs of row and column indices of obstacle cells
+
+- start node: row 1, cell 1 - max
+- goal node: index of row and column
+    + row index > max row / 2
+    + col inded > max col * 2/3
+
+Output: 
+    Searched map (graphically or matrix)
+    shortest path
